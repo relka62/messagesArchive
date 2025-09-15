@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messages Archive</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+    <nav class="sidebar">
+        <h3>Messages</h3>
+        <ul id="messageList">
+            <li class="active" onclick="showMessage(0)">20/07//2025</li>
+            <li onclick="showMessage(1)">01/08/2025</li>
+            <li onclick="showMessage(2)">27/08/2025</li>
+            <li onclick="showMessage(3)">08/08/2025</li>
+            <li onclick="showMessage(4)">14/09/2025</li>
+        </ul>
+    </nav>
+    <main class="main-content">
+        <section id="messageDisplay"></section>
+    </main>
+
+    <!-- Hidden message templates -->
+    <template id="msg-0">
+        <h2>i miss you</h2>
+        <p>
+            Those three words,<br>
+            Enough to plant a smile<br>
+            On my face so willing.<br>
+            Yet strike a nerve so deep,<br>
+            And craft a thought instilling:<br>
+            A message to undermine the world
+        </p>
+        <p>
+            The exams and plans,<br>
+            Deadlines that blossom too fast,<br>
+            Social constructs that rule the world,<br>
+            They all fade into pretense.<br>
+            Bearing a simulated seperation,<br>
+            And a will to violate it.
+        </p>
+        <p>
+            Invent teleportation,<br>
+            Intercept dreams.<br>
+            A message designed to love<br>
+            Still deviates to frustration.
+        </p>
+        <p>
+            Three simple words<br>
+            Expose a new kind of pain.<br>
+            The gut-wrenching heartache<br>
+            That just keeps on pounding.<br>
+            The goodnights and good mornings,<br>
+            Pushing me to crave even more
+        </p>
+        <p>
+            A day that never seems to come.<br>
+            The asymptote of time slows<br>
+            As I realise the finite nature<br>
+            Of my patience.
+        </p>
+        <p>
+            But your smile will come again<br>
+            And light up the cave I've dug myself into.<br>
+            And your voice will come again<br>
+            Bringing serenity to a maddened world.<br>
+            And your touch will come again<br>
+            I already know I will never want to let go.
+        </p>
+        <p>
+            I miss you too
+        </p>
+    </template>
+
+
+    <template id="msg-1">
+        <h2>For the most amazing girlfriend in the world:</h2>
+        <p>I want to let you know how grateful I am that you're a part of my life now. I still remember that morning so clearly when I saw a message from you. In the days leading up to then I had noticed that you'd been liking all of the stuff I was posting on Insta, although I still had no idea why you were liking them. I felt such strong emotions to wake up to that message:</p>
+        <img src="msg.png" style="max-width: 100%; border-radius: 12px; margin: 1rem 0;">
+        <p>Like me, me?????? It was a mix of like 'oh my gosh someone likes me' and 'someone likes me?'. I saw it right as I woke up around 7am and I just thought about how to reply for the entire morning. I wish I could remember all the thoughts that were going through my head then but nothing has stuck in my memory. </p>
+        <p>I'm so glad that its worked out for us, you're just so perfect and special to me now it's wonderful. I thought that you could tell what my intentions were then, like I was trying to show that I was interested in you. And immediately I realised how easy and enjoyable it is to talk to you, and it didn't take long at all for me to develop feelings for you.</p>
+        <p>And then there was the night where I was playing BeamNG with my friend Olie, and I was talking to him about how I was talking to you and everything that had gone on so far. I remember telling him that I had feelings for you and wanted to tell you but were too scared, and he was so convincing in telling me to bring it up. That was probably one of the moments in my life where I've felt the most scared, like I had so much validation and strong feelings resting on what I was saying.</p>
+        <p>But once I said that and we confirmed that we we're dating life has just been amazing with you. I love you so much more than I ever thought I could, like who would have known? I could spend so long talking about what I love about you: </p>
+        <ul>
+            <li>The first thing that stuck out to me was your maturity, able to take any situation seriously when it was needed. And it's actually so nice to be able to talk to you about anything I feel</li>
+            <li>Your smile, you know when its a cold morning (not in winter so the sun is still strong) and the sun is just beaming down warmth on you, that's how it feels when you smile at me. It even still gives me butterflies.</li>
+            <li>Your magnetic personality, like personally I don't see how you don't have a million friends just because everyone you meet doesn't instantly wants to be your friend.</li>
+            <li>I could listen to you speak for an entire year straight without getting bored, your voice is so calming to me it's actually insane how comfortable I feel around you.</li>
+            <li>Your appearance; I don't care whatever you say about yourself (like when you didn't like the pimple you had), you always look stunning to me, standing out from the crowd like a beacon I'm searching for.</li>
+            <li>I could go on and on and on but then I wouldn't have finished this before girlfriend's day, but just know that I love every single aspect of you, and I wouldn't want you to change in any single way.</li>
+        </ul>
+        <p>Did I mention that I love you, like so indescribably much, I want you know that I am thinking of you every single moment of every single day. I also wanna say that I was soooo happy after our first date, I just enjoy every single moment I spend with you. And I cannot wait until our second date because I already know that it is going to be another one of the best days of my life.</p>
+        <p>So finally, I just want to say that I am so grateful for you coming into my life, I love you with all of my existence in this world, and I am so proud of you for being such an awesome person who makes the world a better place. No matter if you're having a mental breakdown, or getting bad grades, or literally any other occcurance, I will always love you - today, tommorow, forever.</p>
+    </template>
+
+
+
+    <template id="msg-2">
+        <h2>Loving longing</h2>
+    <p> Might I sound crazy?<br>
+        Maybe I sound mad?<br>
+        Have I said it enough already?<br>
+        Or might she even be glad?</p>
+    <p> Fortune conceals its double edge<br>
+        Gifting me the most beautiful angel<br>
+        Down from the heavens abovs<br>
+        But still fortune deceives us<br>
+        To deprive our expression of love</p>
+    <p> To public gatherings at school<br>
+        The messages and calls online,<br>
+        Still nothing can satisfy<br>
+        The way I need spend my time</p>
+    <p> My dreams stand before me<br>
+        Squeezing her whole body so tight<br>
+        Leaning in for a first kiss<br>
+        To leave me in pure delight</p>
+    <p> But for now, in angst,<br>
+        I wait<br>
+        Waiting, for a while at least,<br>
+        For that very special day</p>
+    </template>
+
+
+
+    <template id="msg-3">
+        <h2>Happy 18th Birthday!</h2>
+        <p>Dear Angela,</p>
+        <p>Its a little sad I can't see you on your actual 18th birthday but at least I'm here today :P<br><br>
+            Despite the horrors of the incoming trials I hope you enjoy your birthday nonetheless.<br><br>
+            Happy birthday!!! And congrats on entering adulthood.<br><br>
+            I hope you know how grateful I am to know such an amazing person. Never forget how amazing you are, and remember that I will always be proud of you for everything you are.<br><br>
+            With lots of love, Oliver</p>
+    </template>
+
+
+
+    <template id="msg-4">
+        <h2>Yapping session</h2>
+        <p>Hey, so I don't know if this is really gonna say anything but I felt like yapping lol.</p>
+        <p>I really can't say enough how grateful I am for your presence in my life, the joy and love you bring just makes my every day. And I'm still so surprised that I would be the lucky guy to get to enjoy all of you, OMG I LOVE YOU SOOOO MUCH.</p>
+        <p>And I've just been reflecting on our relationship a little bit recently, and everything just makes me so giddy and happy. To the point where it actually feels unreal. It all started with you having a crush on me, and like even just that makes me so happy. It really provides me with some much needed validation in my life and my mind. And then you built up the courage to talk to me, and wow am I glad that I finally downloaded Instagram. I remember seeing that message and my heart just went beating so fast, and it all felt so surreal. BUT MAN DID I THROW SO HARD. I really just wanted to start by being as honest as I could, which I realise now was really brutal. Because I didn't want to get into a relationship unless it was built on trust and good communication. And since then soooo much has happened:</p>
+        <ul>
+            <li>Just simply talking, I could listen to you go on and on and on and on and on and on forever and ever. Hell we have about 100k messages on Instagram to each other now lol. A fifth of the entire Lord of the Rings trilogy.</li>
+            <li>And that night when I finally said I liked you as well. DAMN THAT WAS SCARY. Again, I wholeheartedly believe that I was so close to throwing again. Our relationship still felt like it was at the point where you could just ghost me and that would be the end.</li>
+            <li>And how awkward was it seeing you at first after I said I liked you. That awkwardness I had when we got Mod C marks back, and all the times when Max and Saanvi tried to tell us to hold hands or hug or "count shoulders". AAAA DAMN THAT IS NOSTALGIC NOW.</li>
+            <li>And now that brings me into this point, my firsts ever and our firsts for our relationship. I think the only ever thing I had no regrets about was holding your hand for the first time, when we went on our first date :). But apart from that our first hug was awkward, but sooooo nice. And our first kiss — I just really wish I kissed you more on Wednesday.</li>
+        </ul>
+        <p>And soon it will be our three month anniversary, on the last day of classes for year 12. Kinda fitting, right? Haha I'm looking forward to seeing you in maths that day, and I know you're gonna make that day so much more special for me.</p>
+        <p>And then we can experience the ends of it all together, through all the time in grad week. WHERE I AM PRAYING THAT I CAN SEE YOU IN PRIVATE. And then we have the HSC, the big end to it all.</p>
+        <p>And afterwards, freedom. We can finally spend more time together after HSC, and probably finally tell your parents about me, about us.</p>
+        <p>Us, it's such an inclusive word that means something completely different to me than it did 3 months ago. It used to be a word that described whatever group I was a part of in that context, but now it means us, you and I. Angela and Oliver, or kimcholiver as my friends still say.</p>
+        <p>And this all leads me into one big collective sigh. A complex, multifaceted sigh. A sigh of relief, that I have someone I can go to for all of my problems. A sigh of hope and comfort for the world that I feel so loved in. And thank you again, again and again and again for making me feel so loved. And a sigh that comes with loving you so much, and as all the cringey Instagram reels put it.</p>
+        <p>I am so sad that I miss you so much right now, but even more glad that I have someone worth to miss this much.</p>
+        <p>Or something along those lines.</p>
+        <p>I love you, and every single day I find another reason to love you even more than yesterday.</p>
+    </template>
+
+
+
+    <script>
+        
+    </script>
+</body>
+</html>
