@@ -93,7 +93,7 @@ section ul {
 
 /* Sidebar and main content layout */
 .sidebar {
-    width: 250px;
+    width: 120px;
     background: #f7f7fa;
     padding: 1rem;
     border-right: 1px solid #ddd;
